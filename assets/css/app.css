@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Mulish', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: #F2F2F2;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.component--prices {
+  width: 100%;
+}
+
+.component--prices .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 55px;
+}
+
+.component--prices .title h3 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.component--prices .title .price-switch {
+  width: 212px;
+  height: 50px;
+  background-color: #D4D9E0;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.component--prices .title .price-switch span {
+  cursor: pointer;
+  color: #171922;
+  font-weight: 700;
+  width: 100px;
+  height: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-transition: 400ms all ease-out;
+  transition: 400ms all ease-out;
+  font-size: 16px;
+}
+
+.component--prices .title .price-switch span.active {
+  background-color: white;
+  -webkit-box-shadow: 0px 15px 13px -12px rgba(134, 147, 164, 0.739565);
+          box-shadow: 0px 15px 13px -12px rgba(134, 147, 164, 0.739565);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.component--prices .packages {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.component--prices .packages .package {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  padding: 45px;
+  background-color: white;
+  height: 447px;
+  width: 438px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 19px 50px -20px rgba(134, 147, 164, 0.739565);
+          box-shadow: 0px 19px 50px -20px rgba(134, 147, 164, 0.739565);
+}
+
+.component--prices .packages .package:not(:last-child) {
+  margin-right: 40px;
+}
+
+.component--prices .packages .package h6 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 35px;
+  color: #171922;
+}
+
+.component--prices .packages .package .price-info .price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #171922;
+  margin-bottom: 10px;
+}
+
+.component--prices .packages .package .price-info .plan {
+  color: rgba(23, 25, 34, 0.7139);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.component--prices .packages .package .price-info .description {
+  font-size: 16px;
+  font-weight: 600;
+  height: 80px;
+}
+
+.component--prices .packages .package .sub-button {
+  width: 348px;
+  height: 61px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 35px;
+  border: 1px solid black;
+  -webkit-transition: 400ms all;
+  transition: 400ms all;
+}
+
+.component--prices .packages .package .sub-button:hover {
+  background-color: transparent;
+  color: black;
+}
+/*# sourceMappingURL=app.css.map */
